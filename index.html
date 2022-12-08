@@ -199,7 +199,7 @@ Customise the visual style and appearance of your guide.
 - Be aware, you can break your page quite easily with this part of CSS.
 -->         
 
-    <style media="screen" type="text/css">
+     <style media="screen" type="text/css">
 
       /* STRUCTURAL ELEMENTS */
 
@@ -216,9 +216,9 @@ Customise the visual style and appearance of your guide.
       body {
         margin:0 0 130px;
         width:100%;
-        font-weight:light;
-        font-family:Mukta, sans-serif;         /* CHANGE THE FONT HERE */
-        color:#692530;         /* CHANGE THE FONT COLOR HERE */
+        font-weight:normal;
+        font-family:Arial, sans-serif;         /* CHANGE THE FONT HERE */
+        color:#555;         /* CHANGE THE FONT COLOR HERE */
       }  
 
       /* PAGE LAYOUT */
@@ -226,7 +226,7 @@ Customise the visual style and appearance of your guide.
       header, footer {
         padding:5%;
         border:0 10%;
-        background-color:#D1EDEC;          /* CHANGE THE HEADER AND FOOTER COLOR HERE */
+        background-color:#A1D0EB;          /* CHANGE THE HEADER AND FOOTER COLOR HERE */
         width:100%;
         margin:0px;        
       }
@@ -255,16 +255,16 @@ Customise the visual style and appearance of your guide.
       /* BASIC STYLES FOR THE PAGE */
       
       a {
-        color:#692530;         /* CHANGE THE LINK COLOR HERE */
-        font-weight:normal;
+        color:#1593A1;         /* CHANGE THE LINK COLOR HERE */
+        font-weight:bold;
       }
 
       /* Heading styles */
       h1 {
         margin:0;
         width:100%;
-        font-weight:SemiBold;
-        font-family:Mukta, sans-serif;          /* CHANGE THE HEADER FONT HERE */
+        font-weight:bold;
+        font-family:Arial, sans-serif;          /* CHANGE THE HEADER FONT HERE */
       }
 
       h2, h3, h4 {
@@ -277,15 +277,15 @@ Customise the visual style and appearance of your guide.
       p {
         margin:16px 0;
         line-height:1.4;
-        font-weight:regular;
+        font-weight:normal;
       }
 
       /* Styles for unordered lists <ul> */
       ul {
-        font-family:Mukta, sans-serif;
+        font-family:"Courier New", Courier, monospace;
         box-shadow:0px 2px 10px #ddd;
-        background-color: #D1EDEC;          /* CHANGE THE THINGS BACKGROUND COLOR HERE */
-        border: 1px solid #692530;           /* CHANGE THE THINGS BORDER HERE */
+        background-color: #D3E3E8;          /* CHANGE THE THINGS BACKGROUND COLOR HERE */
+        border: 1px solid #555;           /* CHANGE THE THINGS BORDER HERE */
         padding:0;
         margin:2em 0 0;
         position:relative;
@@ -298,20 +298,20 @@ Customise the visual style and appearance of your guide.
         list-style-type: none;
         border-top: 1px dotted #555; 
         font-size:14px;
-        color:#e5dbd9;
+        color:#000;
         height: auto;
         padding: 7px 10px 5px 25px;
         list-style-type: square;
         list-style-position: inside;
-        color:#692530;
+        color:#333;
       }
 
       .content {
-        background: #E8F6F6;          /* CHANGE THE INSTRUCTION BACKGROUND COLOR HERE */
+        background: #fff;          /* CHANGE THE INSTRUCTION BACKGROUND COLOR HERE */
       }
 
       .step-by-step li:before {
-        background: #D1EDEC;          /* CHANGE THE INSTRUCTION NUMBER BACKGROUND COLOR HERE */
+        background: #D3E3E8;          /* CHANGE THE INSTRUCTION NUMBER BACKGROUND COLOR HERE */
         border-top-left-radius: 50px;          /* CHANGE THE INSTRUCTION SHAPE HERE */
         border-bottom-left-radius: 50px;
       }
@@ -344,7 +344,7 @@ Customise the visual style and appearance of your guide.
       hr {
         border: 0; 
         height: 0; 
-        border-top: 1px solid #e5dbd9; 
+        border-top: 1px solid #D3E3E8; 
       }
 
 
@@ -356,7 +356,7 @@ Customise the visual style and appearance of your guide.
 
       /* Hover state styles for list items inside unordered list <li> */
       ul li:hover {
-        background-color: #D1EDEC;
+        background-color: #eedc9c;
       }
 
 
@@ -414,14 +414,14 @@ Customise the visual style and appearance of your guide.
         top:0;
         left:-40px;
         z-index:-1;
-        background: #D1EDEC; 
+        background: #D3E3E8; 
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
       }
 
       /* Styles for sub-list item numbering */
       .step-by-step li li:before {
-        background: #E8F6F6; 
+        background: #333; 
       }
 
 
